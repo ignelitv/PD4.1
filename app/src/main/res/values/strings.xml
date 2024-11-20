@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">PD4.1</string>
+    <string name="note_added">Note added!</string>
+    <string name="note_deleted">Note deleted!</string>
+    <string name="no_note_selected">No note selected!</string>
+    <string name="both_fields_required">Both fields are required!</string>
+    <string name="add_note_button">Add Note</string>
+    <string name="delete_note_button">Delete Note</string>
+    <string name="save_button">Save</string>
+    <string name="back_button">Back</string>
+    <string name="note_name_hint">Note Name</string>
+    <string name="note_content_hint">Note Content</string>
+    <string name="notes_preferences">NotesPreferences</string>
+    <string name="notes">Notes</string>
+</resources>

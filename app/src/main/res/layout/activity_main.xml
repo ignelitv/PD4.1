@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="#f5f5f5">
+
+    <!-- Programėlės pavadinimas -->
+    <TextView
+        android:id="@+id/titleTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/notes"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:padding="16dp"
+        android:textColor="#333333" />
+
+    <!-- Užrašų sąrašas -->
+    <ListView
+        android:id="@+id/notesListView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:divider="#cccccc"
+        android:dividerHeight="1dp"
+        android:background="#ffffff" />
+
+    <!-- Veiksmų mygtukų konteineris -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:paddingTop="8dp">
+
+        <!-- Pridėti užrašą -->
+        <Button
+            android:id="@+id/addNoteButton"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/add_note_button"
+            android:backgroundTint="#4CAF50"
+            android:textColor="#ffffff"
+            android:layout_marginEnd="8dp"
+            android:padding="10dp" />
+
+        <!-- Ištrinti užrašą -->
+        <Button
+            android:id="@+id/deleteNoteButton"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/delete_note_button"
+            android:backgroundTint="#F44336"
+            android:textColor="#ffffff"
+            android:padding="10dp" />
+    </LinearLayout>
+
+</LinearLayout>
